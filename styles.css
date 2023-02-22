@@ -100,18 +100,18 @@ header {
 }
 
 @media screen and (max-width:900px) {
-
     .container-left {
-        height: 50%;
+        display: block;
         width: 100%;
-        padding: 0;
+        height: 50%;
         margin: 0;
+        padding: 0;
     }
 
     .container-right {
         display: block;
-        height: auto;
         width: 100%;
+        height: auto;
         position: static;
         padding: 40px;
     }
@@ -121,32 +121,30 @@ header {
         max-width: 90%;
     }
 
-
     header {
         display: none;
     }
-
-    h1 {
+ 
+    .titulo {
+        margin: 58px 54px 0px 54px;
         font-size: 36px;
         line-height: 52px;
         text-align: center;
         width: auto;
-        margin: 58px 50px 0 50px;
     }
 
-    p {
-
+    p{
+        margin: 15px 40px 15px 40px;
         font-size: 14px;
         line-height: 24px;
-        width: auto;
-        margin: 15px 40px;
         text-align: center;
+        width: auto;
     }
 
     button {
-        margin: 10px auto;
+        margin: 0px auto;
         display: block;
-
     }
-
+  
+ 
 }
